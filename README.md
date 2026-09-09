@@ -124,7 +124,7 @@ git push
 - Point this repository at the new commit.
 
 ```
-cd data-and-design.github.io
+cd dnd-site
 git submodule update --remote classes/4871/assignments/a2/practice-site
 git commit -am "Update A2 practice site"
 git push
