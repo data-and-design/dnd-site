@@ -161,12 +161,22 @@ Open a second terminal window for everything below, with Cmd-N on macOS or by st
 
 Use either the browser extension or the command line.
 
-**Option 1: Browser extension.** Install the axe DevTools extension [for Chrome](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/). Open `http://localhost:8080/events.html`. Open developer tools with F12, or with Cmd-Option-I on macOS. Choose the axe DevTools tab and press "Scan all of my page".
+**Option 1: Browser extension.**
+- Install the axe DevTools extension [for Chrome](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/).
+- Open `http://localhost:8080/events.html`.
+- Open developer tools with F12, or with Cmd-Option-I on macOS. 
+- Choose the axe DevTools tab and press "Scan all of my page". (It might be hidden behind the button that looks like ">>" which shows you more tabs).
 
 **Option 2: Command line tool.** Run this in your second terminal window:
 
 ```
 npx @axe-core/cli http://localhost:8080/events.html
+```
+
+If running that gives you an error related to ChromeDriver, run this first:
+
+```
+npx browser-driver-manager install chrome
 ```
 
 The command prints each broken rule, the number of elements that broke it, a CSS selector for each of those elements, and a link to Deque's writeup of the rule.
