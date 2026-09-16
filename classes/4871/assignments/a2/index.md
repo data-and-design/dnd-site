@@ -159,11 +159,11 @@ Open a second terminal window for everything below, with Cmd-N on macOS or by st
 
 ### 4. Run axe
 
-Use either the extension or the command line.
+Use either the browser extension or the command line.
 
-**In the browser.** Install the axe DevTools extension for Chrome or Firefox. Open `http://localhost:8080/events.html`. Open developer tools with F12, or with Cmd-Option-I on macOS. Choose the axe DevTools tab and press "Scan all of my page".
+**Option 1: Browser extension.** Install the axe DevTools extension [for Chrome](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/). Open `http://localhost:8080/events.html`. Open developer tools with F12, or with Cmd-Option-I on macOS. Choose the axe DevTools tab and press "Scan all of my page".
 
-**In the terminal.** Run this in your second terminal window:
+**Option 2: Command line tool.** Run this in your second terminal window:
 
 ```
 npx @axe-core/cli http://localhost:8080/events.html
