@@ -9,7 +9,7 @@ description: "INFO 4871 Assignment 2"
 
 # Assignment 2: Accessibility Auditing and Remediation
 
-**Due Wednesday, October 7. Individually or in pairs.**
+**Due Monday, October 12. Individually or in pairs.**
 
 An important skill for accessibility professionals is to audit existing webpages for accessibility errors and understand how to fix them. In this assignment, you will conduct a basic accessibility audit of a practice website. The goal of this assignment is to get familiar with the tools and thought processes you would use as a UX engineer or accessibility specialist.
 
