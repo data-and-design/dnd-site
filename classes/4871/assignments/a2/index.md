@@ -85,12 +85,12 @@ The audit report document should have the following sections.
 
 **a. Method.** Document the screen reader, browser, and operating system you used. Also write down which two manual passes you chose. If you worked in a pair, write down who did which part.
 
-**b. Findings.** One table, one row per finding, carrying a column for each of these:
+**b. Findings.** Create a table with one row per finding. Create a column for each of these:
 
 - the location (which page, what element)
 - the incorrect behavior (described with enough detail to reproduce it)
 - how did you find it
-- the WCAG 2.2 success criterion it violates, with that criterion's conformance level (or "none" if WCAG doesn't address the problem)
+- the WCAG 2.2 success criterion it violates, with that criterion's conformance level (or "none" if WCAG doesn't address the problem). The automated tools should tell you which criterion they were using for each thing they find. For the ones you found on your manual pass, do your best guess of which WCAG criterion it is based on WCAG documentation you find online.
 - did axe and/or pa11y catch it? (which one, or both, or neither)
 
 **c. Priority ranking.** Rank the findings based on how severe they are for a user. How badly does each one prevent a user from finishing the purchase? Write a few sentences about the reasoning behind your ranking.
