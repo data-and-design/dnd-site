@@ -121,6 +121,10 @@ Clone the repository, or [download the ZIP](https://github.com/data-and-design/i
 git clone https://github.com/data-and-design/info-4871-a2.git
 ```
 
+OR
+
+Download the zip file by going to [the repository](https://github.com/data-and-design/info-4871-a2), clicking the green "Code" button, and clicking the "Download Zip" link at the bottom of the menu.
+
 ### 2. Install Node.js
 
 Both checkers run on Node.js. macOS users should open Terminal. Windows users should open PowerShell. Then type:
@@ -129,7 +133,9 @@ Both checkers run on Node.js. macOS users should open Terminal. Windows users sh
 node --version
 ```
 
-A version number such as `v22.11.0` means Node is already installed, and you can go to step 3. `command not found` means Node is missing. Download the LTS installer from [nodejs.org](https://nodejs.org/), run it, quit the terminal, open the terminal again, and check the version again to confirm it's installed.
+If running that command prints a version number such as `v22.11.0`, Node is already installed and you can go to step 3.
+
+If running that command shows `command not found`, it means Node is not installed yet. Download the LTS installer from [nodejs.org](https://nodejs.org/), run it, quit the terminal, open the terminal again, and check the version again to confirm it's installed.
 
 ### 3. Start the server
 
