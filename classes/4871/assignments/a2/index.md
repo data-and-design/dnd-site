@@ -183,6 +183,8 @@ The command prints each broken rule, the number of elements that broke it, a CSS
 
 ### 5. Run pa11y
 
+In a separate terminal tab from where you're running your server, run:
+
 ```
 npx pa11y http://localhost:8080/events.html
 ```
