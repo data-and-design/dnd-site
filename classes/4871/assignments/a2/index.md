@@ -217,12 +217,12 @@ Nothing prints when you do this, because the text went into the file. The file i
 
 A patch file contains the diff between two states of the code: what it looked like before your repairs, and what it looks like after. 
 
-**1. Snapshot the site before you touch it.** 
+**1. Snapshot the site before you edit it.** 
 To compute that diff, git needs a baseline "before" to measure against.
 Before you change anything, you need to make one commit that represents the initial state of the site.
 If you cloned the repository, the clone already has a git history with an initial commit, so skip to step 2.
 
-Open a terminal in the folder holding the downloaded files and run:
+Otherwise, open a terminal, `cd` to the folder with the project files and run:
 
 ```
 git init
