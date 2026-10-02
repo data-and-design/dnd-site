@@ -50,6 +50,11 @@
 #menu details a {
   display: block;
   margin-left: 1em;
+  white-space: nowrap;
+
+  @include for-md-down {
+    white-space: normal;
+  }
 }
 
 #menu a {
@@ -72,12 +77,18 @@ details[open] {
   max-height: 12rem;
 }
 
-@media screen and (max-width: 1274px) {
+@media screen and (max-width: 1179px) {
   #header {
     padding-bottom: 1rem;
   }
 
   #menu > a, #menu > details {
     display: block;
+  }
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1359px) {
+  #menu > a, #menu > details {
+    font-size: 1rem;
   }
 }
