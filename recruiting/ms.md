@@ -8,7 +8,7 @@ date: 2026-01-22
 
 The <span class="dnd">Data & Design</span> Group is a research group in the Department of Information Science at the University of Colorado Boulder. This page contains information for prospective MS students about our research, what we can accomplish together, and how to apply.
 
-MS applications are **due February 1**. I review MS applications every year, but capacity is shaped by a variety of factors (including project and mentorship availability).
+MS applications are **due February 5**. I review MS applications every year, but capacity is shaped by a variety of factors (including project and mentorship availability).
 
 ## Why am I looking for MS students?
 
