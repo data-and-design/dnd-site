@@ -23,7 +23,7 @@ Prospective students can also apply to join the group via the [MS in Information
 
 <a href="/recruiting/ms" class="arrow-link"><span class="cta">Information for MS applicants <span aria-hidden>&rarr;</span></span></a>
 
-_Applications due Feb 1._
+_Applications due Feb 5._
 
 ## CU Undergrads
 
