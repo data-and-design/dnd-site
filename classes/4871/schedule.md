@@ -225,7 +225,7 @@ Optional (Grad student recommended):
 
 #### In class — software studio
 
-- [Design dimensions for non-visual interaction](vis.mit.edu/pubs/rich-screen-reader-vis-experiences)
+- [Design dimensions for non-visual interaction](https://vis.mit.edu/pubs/rich-screen-reader-vis-experiences)
 - Accessible data visualization: [Olli](https://github.com/umwelt-data/olli) and [Umwelt](https://github.com/umwelt-data/umwelt)
 - [Assignment 3](./assignments/a3/) assigned
 
