@@ -254,14 +254,6 @@ This is the same `git diff` from step 3, just redirected into a file with `>` in
 
 Put your own last name in the filename. The `../` writes the patch to the folder above the site, so the patch stays out of the next patch you generate. Upload the `.patch` file to Canvas.
 
-**5. Check that it applies correctly.** If you want to be sure that you created your patch correctly, copy the patch file and a fresh unmodified copy of the site into a scratch folder, then run:
-
-```
-git apply --check lastname-a2.patch
-```
-
-No output means the patch applies cleanly. An error message means the patch does not apply, which means I won't be able to grade it properly.
-
 ### When the patch comes out wrong
 
 **It is empty.** You committed your repairs, so nothing remains in the working tree to diff. Run `git log --oneline`, find the "Unmodified site" commit, and use `git diff <that hash>` instead.

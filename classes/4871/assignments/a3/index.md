@@ -9,7 +9,7 @@ description: "INFO 4871 Assignment 3"
 
 # Assignment 3: Non-Visual Design
 
-**Checkpoint Wednesday, October 21. Due Wednesday, October 28. Teams of two or three.**
+**Checkpoint 1 due Wednesday, October 28. Checkpoint 2 due Wednesday, November 4. Checkpoint 3 due Wednesday, November 11. Teams of two or three.**
 
 Most screen reader interfaces on the internet, when they are accessible at all, are usually designed by retrofitting screen reader attributes onto an existing visual structure. In this assignment, you will design a non-visual interface from the ground up. The goal of this assignment is to think about usability from a non-visual perspective, and how to think about the affordances of speech and audio (which are not always the same as visual affordances).
 
@@ -31,7 +31,7 @@ This assignment asks you to design across three dimensions: structure, navigatio
 
 **Description** — what information the screen reader announces at each location, in what order, and how concise or verbose it is
 
-## Part 1: Prototype and Sketch
+## Part 1: Prototype and Sketch (Checkpoint 1, due October 28)
 
 Before you implement anything, sketch your interface's structure, navigation, and description on paper. For example, you can draw a diagram of the structure, list out the keyboard interactions that define the navigation, and write a script for what gets announced at each location.
 
@@ -56,13 +56,108 @@ Consider these questions as you prototype:
 - What can a user request on demand instead of receiving automatically? (e.g. by expanding summary/detail for additional info)
 - Is there anything you are deliberately leaving out of the non-visual version, and why?
 
-## Part 2: Build
+
+## What to submit
+
+**Design document** covering structure, navigation, and description
+    - Include your sketches or early prototypes.
+    - For each design dimension, discuss: what choices did you make and why? What alternatives did you consider and why did you reject them?
+
+## Part 2: Build (Checkpoint 2, due November 4)
 
 Implement the design as a web interface that you can test with a screen reader.
 
-**At the October 21 checkpoint**, submit Part 1 plus a running prototype that can be tested. The prototype does not have to be perfect or finished, but there should be a first complete draft of a structure, navigation, and description.
+**At the November 4 checkpoint**, a running prototype that can be tested. The prototype does not have to be perfect or finished, but there should be a first complete draft of a structure, navigation, and description.
 
-## Part 3: Test and revise
+Build your prototype with the [starter template](https://github.com/data-and-design/info-4871-a3-template). In the template, you will write your design as a list of nodes. Each node is one item a screen reader user can move to, and specifies the description the screen reader will there. The template renders your nodes into a webpage with keyboard navigation.
+
+### 1. Get the template
+
+Clone the repository, or download the ZIP and unzip it.
+
+```
+git clone https://github.com/data-and-design/info-4871-a3-template.git
+```
+
+OR
+
+Download the zip file by going to [the repository](https://github.com/data-and-design/info-4871-a3-template), clicking the green "Code" button, and clicking the "Download ZIP" link at the bottom of the menu.
+
+### 2. Install Node.js
+
+The template runs on Node.js version 22.12 or higher. macOS users should open Terminal. Windows users should open PowerShell. Then type:
+
+```
+node --version
+```
+
+If the command prints a version number of 22.12 or higher, such as `v24.11.0`, Node is ready and you can go to step 3. If you installed Node for Assignment 2, you should be good to go, but check the version anyway just in case.
+
+If the command shows `command not found`, or prints a version lower than 22.12, download the LTS installer from [nodejs.org](https://nodejs.org/) and run it. Then quit the terminal, open it again, and check the version again.
+
+### 3. Start the app
+
+`cd` to the folder where you cloned or unzipped the template. For example, if the folder is at `~/jzong/code/info-4871-a3-template`, run:
+
+```
+cd ~/jzong/code/info-4871-a3-template
+```
+
+Tip: you can drag the folder from Finder or File Explorer onto the terminal window to paste the path to that folder.
+
+Then run these two commands:
+
+```
+npm install
+npm run dev
+```
+
+`npm install` downloads the code libraries the template needs. You only need to run it once. `npm run dev` starts the app and prints an address, usually `http://localhost:5173`. Open that address in your browser.
+
+Leave the terminal window open while you work, because closing it stops the app. Each time you save a file, the page in the browser reloads with your change. Press Ctrl-C in the terminal to stop the app, and run `npm run dev` again to restart it.
+
+### 4. Try the starter version
+
+The template starts with a working copy of a sample shopping site's two pages. Before you change anything, try it with the keyboard:
+
+- Make sure focus is on the description (tab or click into it).
+- Use the Down arrow to go into a group, the Up arrow to go back out, and the Left and Right arrows to move between items in the same group.
+- Press Enter on a search result to open its product page. Press Backspace on a product page to go back to the search results.
+
+You can also try it with a screen reader. See [this documentation](https://umwelt-data.github.io/olli/using/) for screen reader-specific configuration.
+
+### 5. Add your products
+
+Open the template folder in a code editor, such as [Visual Studio Code](https://code.visualstudio.com/). Open `src/data.js` and replace the two sample products with the search results from the shopping site you chose. You don't have to copy every single result from the real page, but copy as many results and fields as you need to communicate your design in a realistic way.
+
+### 6. Build your design
+
+Edit these two files: `src/pages/results.js` for the search results page, and `src/pages/product.js` for the product page. Each file marks the lines to change with `EDIT BELOW THIS LINE` and `EDIT ABOVE THIS LINE`. Leave the rest of each file, and every other file in the template, unchanged.
+
+Each node in those files has up to four fields:
+
+```
+{
+  id: 'aurora-anc',
+  description: 'Aurora ANC Wireless Over-Ear Headphones',
+  children: ['aurora-anc-price', 'aurora-anc-rating'],
+  navigation: { Enter: 'aurora-anc-page' },
+}
+```
+
+These fields match the three dimensions of your Part 1 design:
+
+- **Structure** is the `children` list. It contains the ids of the nodes grouped inside this node, in order. Arrow key navigation uses these lists (left/right to move between siblings, up/down to move between parents/children).
+- **Description** is the `description` text. The screen reader reads this text when the user reaches the node.
+- **Navigation** is the arrow keys plus the `navigation` list of extra keys. Each entry maps a key to the `id` of a node to jump to when that key is pressed.
+
+Work in small steps. Change one thing, save the file, and check the page. You can check your descriptions by reading the page on screen, but test with a screen reader before submitting, because screen readers add additional output to the description.
+
+## What to submit
+
+**Code** either as a zip file, or a link to a deployed version (e.g. on Github pages).
+
+## Part 3: Test and revise (Checkpoint 3, due November 11th)
 
 Give your user task questions and your interface to a classmate from another team. They will work through it with a screen reader and try to answer the questions. Write down which questions they were able to answer and which they could not answer (or answered incorrectly). Iterate on your prototype based on this feedback, and write down what you changed and why.
 
@@ -70,11 +165,7 @@ We will reserve some time for this in class.
 
 ## What to submit
 
-1. **Design document** covering structure, navigation, and description
-    - Include your sketches or early prototypes.
-    - For each design dimension: what choices did you make and why? What alternatives did you consider and why did you reject them?
-2. **Code**
-3. **Test results and revision notes**, answering:
+**Notes on peer user testing and revisions**, answering:
     - What was an interesting or unexpected moment during testing that you learned from?
     - What did you change about your prototype in response, and how does that change address what happened in testing?
 

@@ -225,9 +225,7 @@ Optional (Grad student recommended):
 
 #### In class — software studio
 
-- [Design dimensions for non-visual interaction](https://vis.mit.edu/pubs/rich-screen-reader-vis-experiences)
-- Accessible data visualization: [Olli](https://github.com/umwelt-data/olli) and [Umwelt](https://github.com/umwelt-data/umwelt)
-- [Assignment 3](./assignments/a3/) assigned
+- Assignment work time
 
 <h2 id="week-9">Week 9 — Deafness, Language, and Culture</h2>
 
@@ -250,8 +248,8 @@ Optional (Grad student recommended):
 
 #### In class — software studio
 
-- [Customization is Key](https://data-and-design.org/publications/customization/)
-- Assignment 3 prototype swap
+- Accessible data visualization: [Olli](https://github.com/umwelt-data/olli) and [Umwelt](https://github.com/umwelt-data/umwelt)
+- [Assignment 3](./assignments/a3/) assigned
 
 #### Due
 - [Assignment 3 checkpoint](./assignments/a3/)
@@ -280,6 +278,8 @@ Optional:
 
 #### In class — software studio
 
+- [Customization is Key](https://data-and-design.org/publications/customization/)
+- Assignment 3 prototype swap
 - Work time and group critique
 
 #### Due
@@ -292,6 +292,10 @@ Optional:
 
 #### Readings
 - Edwards, Terra. **Chapter 3: The Collapse of the World**. *Going Tactile: Life at the Limits of Language*. Oxford University Press, 2024.
+
+#### In class
+- Combined class with INFO 6201 Interdisciplinary Ways of Knowing
+- [Design dimensions for non-visual interaction](https://vis.mit.edu/pubs/rich-screen-reader-vis-experiences)
 
 #### Due
 - [Reading responses](./reading-responses)
