@@ -60,8 +60,8 @@ Consider these questions as you prototype:
 ## What to submit
 
 **Design document** covering structure, navigation, and description
-    - Include your sketches or early prototypes.
-    - For each design dimension, discuss: what choices did you make and why? What alternatives did you consider and why did you reject them?
+- Include your sketches or early prototypes.
+- For each design dimension, discuss: what choices did you make and why? What alternatives did you consider and why did you reject them?
 
 ## Part 2: Build (Checkpoint 2, due November 4)
 
@@ -126,7 +126,7 @@ The template starts with a working copy of a sample shopping site's two pages. B
 
 You can also try it with a screen reader. See [this documentation](https://umwelt-data.github.io/olli/using/) for screen reader-specific configuration.
 
-### 5. Add your products
+### 5. Add your data
 
 Open the template folder in a code editor, such as [Visual Studio Code](https://code.visualstudio.com/). Open `src/data.js` and replace the two sample products with the search results from the shopping site you chose. You don't have to copy every single result from the real page, but copy as many results and fields as you need to communicate your design in a realistic way.
 
@@ -166,8 +166,8 @@ We will reserve some time for this in class.
 ## What to submit
 
 **Notes on peer user testing and revisions**, answering:
-    - What was an interesting or unexpected moment during testing that you learned from?
-    - What did you change about your prototype in response, and how does that change address what happened in testing?
+- What was an interesting or unexpected moment during testing that you learned from?
+- What did you change about your prototype in response, and how does that change address what happened in testing?
 
 
 ## Rubric
