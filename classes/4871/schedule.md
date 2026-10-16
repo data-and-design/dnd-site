@@ -251,9 +251,6 @@ Optional (Grad student recommended):
 - Accessible data visualization: [Olli](https://github.com/umwelt-data/olli) and [Umwelt](https://github.com/umwelt-data/umwelt)
 - [Assignment 3](./assignments/a3/) assigned
 
-#### Due
-- [Assignment 3 checkpoint](./assignments/a3/)
-
 <h2 id="week-10">Week 10 — Life at the Limits of Language (Part 1)</h2>
 
 ### October 26 (Monday)
@@ -279,12 +276,10 @@ Optional:
 #### In class — software studio
 
 - [Customization is Key](https://data-and-design.org/publications/customization/)
-- Assignment 3 prototype swap
-- Work time and group critique
+- Project work time
 
 #### Due
-- [Assignment 3: Non-Visual Design](./assignments/a3/)
-- [Final project teams](./assignments/final/#teams) entered in Canvas
+- [Assignment 3 checkpoint 1](./assignments/a3/)
 
 <h2 id="week-11">Week 11 — Life at the Limits of Language (Part 2)</h2>
 
@@ -308,10 +303,12 @@ Optional:
 
 #### In class
 
-- Project check-ins / work time
+- Assignment 3 prototype swap
+- Work time and group critique
 
 #### Due
-- [Final project proposal](./assignments/final/#proposal)
+- [Assignment 3 checkpoint 2](./assignments/a3/)
+
 
 <h2 id="week-12">Week 12 — Life at the Limits of Language (Part 3)</h2>
 
@@ -334,6 +331,10 @@ Optional (strongly recommended):
     - Group 4: [**Argument Analyst**](./reading-responses#argument-analyst)
 
 ### November 11 (Wednesday) — No Class
+
+#### Due
+- [Assignment 3 checkpoint 3](./assignments/a3/)
+
 
 <h2 id="week-13">Week 13 — Disability, Bias, and AI</h2>
 
