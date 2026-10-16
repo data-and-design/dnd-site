@@ -332,9 +332,6 @@ Optional (strongly recommended):
 
 ### November 11 (Wednesday) — No Class
 
-#### Due
-- [Assignment 3 checkpoint 3](./assignments/a3/)
-
 
 <h2 id="week-13">Week 13 — Disability, Bias, and AI</h2>
 
@@ -353,6 +350,7 @@ Optional:
     - Group 2: [**Concept Keeper**](./reading-responses#concept-keeper)
     - Group 3: [**Connector**](./reading-responses#connector)
     - Group 4: [**Design Translator**](./reading-responses#design-translator)
+- [Assignment 3 checkpoint 3](./assignments/a3/)
 
 ### November 18 (Wednesday)
 
