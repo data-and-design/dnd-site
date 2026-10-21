@@ -9,7 +9,7 @@ description: "INFO 4871 Assignment 3"
 
 # Assignment 3: Non-Visual Design
 
-**Checkpoint 1 due Wednesday, October 28. Checkpoint 2 due Wednesday, November 4. Checkpoint 3 due Wednesday, November 16. Teams of two or three.**
+**Checkpoint 1 due Wednesday, October 28. Checkpoint 2 due Wednesday, November 4. Checkpoint 3 due Monday, November 16. Teams of two or three.**
 
 Most screen reader interfaces on the internet, when they are accessible at all, are usually designed by retrofitting screen reader attributes onto an existing visual structure. In this assignment, you will design a non-visual interface from the ground up. The goal of this assignment is to think about usability from a non-visual perspective, and how to think about the affordances of speech and audio (which are not always the same as visual affordances).
 
@@ -184,4 +184,4 @@ This assignment is worth **10 points**, divided across the criteria below. Each 
 
 ---
 
-Previous: [Assignment 2: Accessibility Auditing and Remediation](../a2/) · Next: [Final Project](../final/)
+Previous: [Assignment 2: Accessibility Auditing and Remediation](../a2/)

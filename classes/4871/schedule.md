@@ -356,37 +356,14 @@ Optional:
 
 #### In class
 
-- Project check-ins / work time
-
-#### Due
-- [Final project progress update](./assignments/final/#progress-update)
+- TBD
 
 <h2 id="week-14">Week 14 — Fall Break</h2>
 
-<h2 id="week-15">Week 15 — Final Project Presentations</h2>
+<h2 id="week-15">Week 15</h2>
 
 ### November 30 (Monday)
 
-#### In class
-
-- [Final Project Presentations](./assignments/final/#presentations)
-
 ### December 2 (Wednesday) — INFO Showcase
 
-#### In class
-
-- [Final Project Presentations](./assignments/final/#presentations)
-
 ### December 4 (Friday that is secretly a Monday)
-
-#### In class
-
-- [Final Project Presentations](./assignments/final/#presentations)
-
-<h2 id="week-16">Week 16 — Finals Week</h2>
-
-### Finals week (date TBD)
-
-#### Due
-
-- [Final project portfolio](./assignments/final/#portfolio)

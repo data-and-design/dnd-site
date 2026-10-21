@@ -28,10 +28,9 @@ description: Information and course policies for INFO 4871 Design for Accessibil
 
 | **Grade component**  | **Weight**  | 
 |---|---|
-| Participation  | 20%  | 
-| Reading responses  | 30%  |
-| Assignments 1–3  | 30%  | 
-| Final project  | 20%  | 
+| Participation  | 30%  | 
+| Reading responses  | 35%  |
+| Assignments  | 35%  | 
 |---|---|
 | **Total**  | 100%  | 
 
@@ -96,7 +95,7 @@ Generative AI tools, such as LLMs and code agents, are quickly changing the prac
 Here are specific examples of uses that are not allowed. These are meant to be illustrative, and not exhaustive.
 
 - **Do not use LLMs to generate your reading responses from scratch.** This doesn’t help you learn and is disrespectful of my time when I read your responses. I know that the readings may be challenging sometimes—grappling with difficult ideas is an important part of the learning process that the class is going through together as we read and discuss. I am interested in your genuine reflections, even if they are imperfect. AI is not a substitute for doing and thinking about the reading yourself.
-- **Do not use image generators or coding agents to make your design decisions.** Often, the process of sketching a low-fidelity prototype can be important for the creative process and noticing gaps in your thinking. Prototyping is a tool to facilitate our design exploration. AI sometimes goes straight to high-fidelity, which can deprive you of an opportunity to reflect on your design. I'm fine with using AI to refine later-stage implementations, but not for exploratory prototyping or one-shotting your final project.
+- **Do not use image generators or coding agents to make your design decisions.** Often, the process of sketching a low-fidelity prototype can be important for the creative process and noticing gaps in your thinking. Prototyping is a tool to facilitate our design exploration. AI sometimes goes straight to high-fidelity, which can deprive you of an opportunity to reflect on your design. I'm fine with using AI to refine later-stage implementations, but not for exploratory prototyping or one-shotting your assignments.
 
 There are ways to use AI responsibly in this class. Please follow the values listed above. I will not actively police your AI use. However, **turning in LLM-generated reading responses will count as academic dishonesty** and I will take appropriate measures if I find out. Further, you are accountable for everything you turn in—if AI generates low-quality work for you, you are responsible for the feedback and/or grade that you get.
 

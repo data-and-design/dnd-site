@@ -4,17 +4,16 @@ class_id: 4871
 nav_title: Assignments
 nav_order: 4
 title: Assignments | INFO 4871
-description: Three accessibility assignments and a final project for INFO 4871, covering screen reader testing, WCAG auditing, and non-visual interface design.
+description: Three accessibility assignments for INFO 4871, covering screen reader testing, WCAG auditing, and non-visual interface design.
 ---
 
 # Assignments
 
-There are three assignments and a final project.
+There are three assignments.
 
 - **[Assignment 1: Screen Reader Familiarization](./a1/)**. Learn to operate a screen reader well enough to evaluate interfaces with it.
 - **[Assignment 2: Accessibility Auditing and Remediation](./a2/)**. Evaluate an interface against WCAG, test it with a screen reader, and implement fixes.
 - **[Assignment 3: Non-Visual Design](./a3/)**. Design and build a structured non-visual interface.
-- **[Final Project](./final/)**.
 
 ## Technical expectations
 
